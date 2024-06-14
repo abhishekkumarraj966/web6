@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 768px) {
   .backgroundimage {
-    height: 600px; /* Adjusted height for smaller screens */
+    height: 500px; /* Adjusted height for smaller screens */
   }
 }
 

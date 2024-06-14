@@ -27,7 +27,7 @@ const Hero = () => {
           <div className="flex justify-center items-center mt-[8%]">
             <img
               src={man}
-              className="rounded-full h-52 w-52 object-cover"
+              className="rounded-full h-[120px] w-[120px] sm:h-52 sm:w-52 object-cover"
               alt="Description of image"
             />
           </div>
@@ -37,6 +37,10 @@ const Hero = () => {
             {" "}
             AAYUSH PANDYA
           </h2>
+          <p className=" font-bold text-[20px] text-center sm:text-start pb-2">
+            {" "}
+            Electronice Shop
+          </p>
           <p className="lg:h-[237px]  h-[110px]   lg:text-[24px] sm:text-[20px] text-[18px] font-normal">
             “It is a long established fact that a reader will be tracked
             distracted by the readable content of a page is when looking at its

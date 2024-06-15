@@ -22,7 +22,7 @@ const Certificates = () => {
     <>
       <div className="bg-[#F3F5F7]">
         <AppLayout>
-          <h2 className="text-start font-bold text-[30px] items-center  pt-[10px]  text-[#000]">
+          <h2 className="text-center font-bold text-[30px] items-center  pt-[10px]  text-[#000]">
             Certificates
           </h2>
         </AppLayout>

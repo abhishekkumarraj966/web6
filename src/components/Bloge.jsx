@@ -16,7 +16,7 @@ const Bloge = () => {
   return (
     <div>
       <AppLayout>
-        <h2 className=" font-bold text-[30px] ml-4" id="blogs">
+        <h2 className=" font-bold text-[30px] text-center" id="blogs">
           Blogs
         </h2>
         <Swiper

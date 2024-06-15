@@ -5,7 +5,7 @@ const BussinessHours = () => {
   return (
     <div className="bg-[#F3F5F7]">
       <AppLayout>
-      <h1 className="lg:my-4 my-4 sm:my-5 lg:font-bold text-[30px] font-bold  lg:text-[28px] sm:text-[30px] text-black text-start ml-4">
+      <h1 className="lg:my-4 my-4 sm:my-5 lg:font-bold text-[30px] font-bold  lg:text-[28px] sm:text-[30px] text-black text-center">
         Business Hours
       </h1>
       </AppLayout>

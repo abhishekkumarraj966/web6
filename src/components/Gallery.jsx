@@ -23,7 +23,7 @@ const Galleary = () => {
       {" "}
       <div className="bg-[#F3F5F7]" id="gallery">
       <AppLayout>
-      <p className="text-start font-bold text-[30px] items-start   text-[#000]">
+      <p className="text-center font-bold text-[30px] items-start   text-[#000]">
             Gallery
           </p>
           </AppLayout>

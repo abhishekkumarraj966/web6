@@ -21,7 +21,7 @@ function ContactUs() {
       <section id="contact">
         <div className="bg-[#121212] text-[#AF790C] h-auto mb-5 rounded-md">
           <div className="text-start font-semibold leading-5 mx-auto pt-10">
-            <div className="italic  text-[30px] ml-2 text-start">
+            <div className="italic  text-[30px]  text-center">
               Enquiry
             </div>
           </div>

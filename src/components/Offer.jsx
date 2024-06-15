@@ -22,7 +22,7 @@ const Offer = () => {
     <>
       <div className="bg-[#F3F5F7]">
         <AppLayout>
-        <h2 className="text-start font-bold text-[30px] pt-[15px] text-[#000]">
+        <h2 className="text-center font-bold text-[30px] pt-[15px] text-[#000]">
           Offers
         </h2>
         </AppLayout>

@@ -12,12 +12,14 @@ import Review from "./Review";
 import BussinessHours from "./BussinessHours";
 import ContactUs from "./ContactUs";
 import Service from "./Service";
+import Contact from "./Contact";
 
 const Layout = () => {
   return (
     <div>
       <Home />
       <Hero />
+      <Contact/>
       <Product />
       <Service/>
       <Offer />

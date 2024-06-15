@@ -14,7 +14,7 @@ const Service = () => {
   return (
     <div>
       <AppLayout>
-        <h2 className=" font-bold text-[30px] ml-4" id="service">
+        <h2 className=" font-bold text-[30px] text-center" id="service">
           Service
         </h2>
         <Swiper

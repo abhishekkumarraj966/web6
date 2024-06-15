@@ -26,34 +26,34 @@ const PopupAlbum = ({ setIsPopupOpen, imsg, setImage }) => {
       }
     };
     return (
-      <div className="h-screen w-full sm:mt-[3%] mt-[12%] bg-[#1f1c147c] fixed top-0 flex justify-center items-center z-10">
-      <div
-        className="text-right mt-2  text-white text-[31px] absolute right-5 top-3 cursor-pointer"
-        onClick={() => setIsPopupOpen(false)}
-      >
-        X
-      </div>
+      <div className="h-screen w-full sm:mt-[10%] mt-[12%] lg:mt-[5%] md:mt-[10%] bg-[#1f1c147c] fixed top-0 flex justify-center items-center z-10">
+    <div
+      className="text-right mt-2  text-white text-[31px] absolute right-5 top-3 cursor-pointer"
+      onClick={() => setIsPopupOpen(false)}
+    >
+      X
+    </div>
 
-      <div className="flex w-full items-center">
-        <div
-          className="text-[50px]  text-white cursor-pointer z-10 absolute left-0 bg-[#00000081]"
-          onClick={handlePrevImage}
-        >
-          <GrFormPrevious />
-        </div>
-        <img
-          src={imagarr[imsg]}
-          className="w-full transition-transform transform duration-100 hover:scale-110 h-[380px] mx-auto md:h-[400px] md:w-[480px] lg:h-[400px] lg:w-[480px] lg:rounded-[1px]"
-          alt="Image 1"
-        />
-        <div
-          className="text-[50px] text-white cursor-pointer absolute z-10 right-0 bg-[#00000069]"
-          onClick={handleNextImage}
-        >
-          <GrFormNext />
-        </div>
+    <div className="flex w-full items-center">
+      <div
+        className="text-[50px]  text-white cursor-pointer z-10 absolute left-0 bg-[#00000081]"
+        onClick={handlePrevImage}
+      >
+        <GrFormPrevious />
+      </div>
+      <img
+        src={imagarr[imsg]}
+        className="w-full transition-transform transform duration-100 hover:scale-110 h-[380px] mx-auto md:h-[400px] md:w-[480px] lg:h-[400px] lg:w-[480px] lg:rounded-[1px]"
+        alt="Image 1"
+      />
+      <div
+        className="text-[50px] text-white cursor-pointer absolute z-10 right-0 bg-[#00000069]"
+        onClick={handleNextImage}
+      >
+        <GrFormNext />
       </div>
     </div>
+  </div>
     );
   };
   

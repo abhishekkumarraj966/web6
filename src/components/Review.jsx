@@ -11,7 +11,7 @@ const Review = () => {
   return (
     <div className="bg-[#F3F5F7] py-10">
     <AppLayout>
-    <h2 className="font-bold text-[30px]  text-start pb-6  text-black ml-4 ">
+    <h2 className="font-bold text-[30px] text-center pb-6  text-black ">
     Our Clients Says 
           </h2>
     <div>
